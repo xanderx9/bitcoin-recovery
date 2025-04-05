@@ -29,14 +29,14 @@ print()
 print('Welcome to Bitcoin Recovery!')
 print('With this tool, you can recover your Bitcoin private key just from the public key.')
 print()
-B = input('Please enter your Bitcoin public key: ')
+B = input('04f6a8148a62320e149cb15c544fe8a25ab483a0095d2280d03b8a00a7feada13d8fde318a70a6dbed63953f4bb93087820e5ccb071faa514204ad19650e5a86ee: ')
 while True:
     if is_address(B):
         print("This is a valid address.")
         break
     else:
         print('Invalid public key, please try again.')
-        B = input('Please enter your Bitcoin public key: ')
+        B = input('04f6a8148a62320e149cb15c544fe8a25ab483a0095d2280d03b8a00a7feada13d8fde318a70a6dbed63953f4bb93087820e5ccb071faa514204ad19650e5a86ee: ')
 
 print('Please wait...')
 print()
